@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Salon Website</title>
+    <style>
+        /* Add some style to the website */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("landmark.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            
+            
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .logo {
+            text-align: center;
+            font-size: 40px;
+            color: #ff69b4;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .nav a {
+            text-decoration: none;
+            color:blue;
+            font-weight: bold;
+            padding: 10px;
+        }
+        .nav a:hover {
+            color: #ff69b4;
+        }
+        .banner {
+            height: 200px;
+            background-image: url("backphoto.jpg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .banner h1 {
+            color: green;
+            font-size: 40px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .banner p {
+            color: yellow;
+            font-size: 15px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+        .banner button {
+            background-color: #ff69b4;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .banner button:hover {
+            transform: scale(1.1);
+        }
+        .section {
+            padding: 40px 0;
+        }
+        .section h2 {
+            text-align: center;
+            font-size: 30px;
+            color: aqua;
+        }
+        .section p {
+            text-align: justify;
+            font-size: 18px;
+            color: royalblue;
+            line-height: 1.5;
+        }
+        .section .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        
+        
+      .section.card {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section.card img {vertical-align: middle;}
+
+.sction.card .content {
+  position:absolute ;
+  top: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Add a logo and a navigation bar -->
+        <div class="logo">
+            <span>Falak Unisex Salon</span>
+        </div>
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Products</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <!-- Add a banner with a catchy slogan and a call to action button -->
+        <div class="banner">
+            <h1>Discover Your Falak Unisex Salon</h1>
+            <p>We offer a range of beauty services and products to help you look and feel your best.</p>
+            <button>Book Now</button>
+        </div>
+        <!-- Add a section with some introduction text -->
+        <div class="section">
+            <h2>Welcome to Falak Unisex Salon</h2>
+            <p>Falak Unisex Salon is a professional beauty salon that provides high-quality services and products to enhance your natural beauty. Whether you need a haircut, a facial, a manicure, or a massage, we have you covered. Our team of experienced and friendly staff will make you feel comfortable and pampered. We also offer a variety of beauty products from top brands that you can purchase online or in-store. Browse our website to learn more about our services and products, or contact us to book an appointment today.</p>
+        </div>
+        <!-- Add a section with some cards to showcase the services and products -->
+        <div class="section">
+            <h2>Our Services and Products</h2>
+            <div class="cards">
+                <!-- Add a card for each service or product -->
+                <div class="card">
+                    <img src="haircut.jpg" alt="Haircut">
+                    <div class="content">
+                        <h3>Haircut</h3>
+                        <p>Get a fresh and stylish haircut from our expert hairstylists. We offer a range of styles and colors to suit your preferences.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="facial.jpeg" alt="Facial">
+                    <div class="content">
+                        <h3>Facial</h3>
+                        <p>Treat your skin to a relaxing and rejuvenating facial. We use natural and organic products to cleanse, exfoliate, and moisturize your skin.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="manicure.jpeg" alt="Manicure">
+                    <div class="content">
+                        <h3>Manicure</h3>
+                        <p>Pamper your hands and nails with a manicure. We offer a range of nail services, including gel, acrylic, and nail art.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="massage.jpeg" alt="Massage">
+                    <div class="content">
+                        <h3>Massage</h3>
+                        <p>Relax your body and mind with a massage. We offer a range of massage techniques, including Swedish, deep tissue, and aromatherapy.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="shampoo.jpeg" alt="Shampoo">
+                    <div class="content">
+                        <h3>Shampoo</h3>
+                        <p>Keep your hair healthy and shiny with our shampoo. We have a variety of shampoo products for different hair types and needs.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="cream.jpeg" alt="Cream">
+                    <div class="content">
+                        <h3>Cream</h3>
+                        <p>Hydrate and nourish your skin with our cream. We have a variety of cream products for different skin types and needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Add a footer with some contact information -->
+        <div class="footer">
+            <p>© 2024 Falak Unisex Salon. All rights reserved. | Phone: +91 9536691255 | Email: Asifsnsari.aa382@gmail.com</p>
+        </div>
+    </div>
+</body>
+</html>
